@@ -29,9 +29,20 @@ export const navlinks = [
         link: '/profile',
     },
     {
+        name: 'crypto-news',
+        imgUrl: createCampaign,
+        link: '/crypto-news',
+    },
+    {
+        name: 'ethereum-price',
+        imgUrl: profile,
+        link: '/ethereum-price',
+    },
+    {
         name: 'logout',
         imgUrl: logout,
         link: '/',
         disabled: true,
     },
+
 ];
